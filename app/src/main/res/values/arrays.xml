@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="arrlevels">
+		<item>المستوى</item>
+		<item>م/الاول</item>
+		<item>م/الثاني</item>
+		<item>م/الثالث</item>
+		<item>م/الرابع</item>
+	</string-array>
+	<string-array name="arractionsearch">
+		<item>الكل</item>
+		<item>الاسم</item>
+		<item>المستوى</item>
+		<item>القسم</item>
+		<item>المدينة</item>
+	</string-array>
+	<string-array name="arrsearch">
+		<item>ح/الاسم</item>
+		<item>ح/المستوى</item>
+		<item>ح/القسم</item>
+		<item>ح/الجنس</item>
+		<item>ح/المدينة</item>
+	</string-array>
+	<string-array name="arrclass">
+		<item>القسم</item>
+		<item>الانجليزي</item>
+		<item>الحاسوب</item>
+	</string-array>
+	<string-array name="arrtype">
+		<item>النوع</item>
+		<item>الملخصات</item>
+		<item>النماذج</item>
+		<item>المراجع</item>
+	</string-array>
+	<string-array name="arrsex">
+		<item>الجنس</item>
+		<item>ذكر</item>
+		<item>انثى</item>
+	</string-array>
+</resources>

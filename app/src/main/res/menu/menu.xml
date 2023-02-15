@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<item android:id="@+id/share"
+		android:title="مشاركة"
+		/>
+
+	<item android:id="@+id/settings"
+		android:title="الضبط"
+		 />
+	<item
+		android:id="@+id/signout"
+		android:title="تسجيل الخروج"
+		/>
+	<item
+		android:id="@+id/exit"
+		android:title="خروج"
+		/>
+    
+</menu>

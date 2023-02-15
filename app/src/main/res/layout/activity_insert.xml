@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:id="@+id/activityInsert"
+	tools:context=".InsertActivity"
+	android:gravity="center_horizontal"
+	android:background="#FFFFFF">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical"
+		android:padding="2dp"
+		android:gravity="center_horizontal"
+		android:background="#FFFFFF">
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:gravity="center"
+			android:background="#0693FF"
+			android:layout_margin="2dp"
+			android:id="@+id/layimage">
+
+			<ImageView
+				android:id="@+id/inimage"
+				android:layout_width="100dp"
+				android:layout_height="100dp"
+				android:src="@drawable/imagepupil"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Image"
+				android:textSize="20sp"
+				android:layout_margin="2dp"
+				android:id="@+id/txtimage"
+				android:textColor="#FFFFFF"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="vertical"
+			android:background="#FFFEFE">
+
+			<EditText
+				android:id="@+id/infullname"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_margin="5dp"
+				android:background="@drawable/radio_round_ed_eorner_editor"
+				android:ems="12"
+				android:gravity="center"
+				android:hint="full name"
+				android:minHeight="48dp"
+				android:textColorHint="#979797" />
+
+			<EditText
+				android:id="@+id/inage"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:layout_margin="5dp"
+				android:background="@drawable/radio_round_ed_eorner_editor"
+				android:ems="12"
+				android:gravity="center"
+				android:hint="Age"
+				android:inputType="number"
+				android:minHeight="48dp"
+				android:textColorHint="#8A8787" />
+
+			<EditText
+				android:id="@+id/incity"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="5dp"
+				android:background="@drawable/radio_round_ed_eorner_editor"
+				android:ems="12"
+				android:gravity="center"
+				android:hint="City"
+				android:minHeight="48dp"
+				android:textColorHint="#8F8E8D" />
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<EditText
+		android:id="@+id/insert_email"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_margin="5dp"
+		android:background="@drawable/radio_round_ed_eorner_editor"
+		android:ems="12"
+		android:gravity="center"
+		android:hint="الايميل"
+		android:inputType="textEmailAddress"
+		android:minHeight="48dp"
+		android:textColorHint="#7B7A7A" />
+
+	<EditText
+		android:id="@+id/insert_password"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_margin="5dp"
+		android:background="@drawable/radio_round_ed_eorner_editor"
+		android:ems="12"
+		android:gravity="center"
+		android:hint="كلمة المرور"
+		android:inputType="textPassword"
+		android:minHeight="48dp"
+		android:textColorHint="#858281" />
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="center">
+
+		<Spinner
+			android:id="@+id/inslevels"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:background="@drawable/sppp"
+			android:entries="@array/arrlevels"
+			android:gravity="left|center_vertical"
+			android:padding="5dp"
+			tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+		<Spinner
+			android:id="@+id/insclass"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:background="@drawable/sppp"
+			android:entries="@array/arrclass"
+			android:padding="5dp"
+			tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal">
+
+		<Spinner
+			android:id="@+id/ingender"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/sppp"
+			android:entries="@array/arrsex"
+			android:gravity="left|center_vertical"
+			android:padding="5dp"
+			tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:text="full fees ="
+			android:gravity="center"
+			android:id="@+id/intotalfees"
+			android:textSize="18sp"
+			android:layout_weight="0.3"
+			android:ems="5"
+			android:background="@drawable/radio_rounded_corner_invisible"/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:layout_width="wrap_content"
+			android:id="@+id/infullfees"
+			android:gravity="center"
+			android:textSize="18sp"
+			android:layout_weight="0.3"
+			android:ems="5"
+			android:background="@drawable/radio_rounded_corner_invisible"/>
+
+	</LinearLayout>
+
+	<EditText
+		android:id="@+id/indataother"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="5dp"
+		android:background="@drawable/radio_round_ed_eorner_editor"
+		android:ems="12"
+		android:gravity="center"
+		android:hint="بيانات اخرى"
+		android:minHeight="48dp"
+		android:textColorHint="#8A8887" />
+
+	<Button
+		android:id="@+id/signup"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:background="#0693FF"
+		android:text="OK"
+		android:textColor="#212121" />
+
+</LinearLayout>
+
+</ScrollView>
